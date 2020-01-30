@@ -32,7 +32,7 @@ CREATE PROCEDURE POLARYS.grapzarz004B(
 	   f.fww = a.aww and          
 	   f.fyy =a.ayy and     
 	   f.fnrfa = a.anrfa AND	
-	   F.FSTAT3=A.ASTAT3) 
+	   F.FSTAT3=A.ASTAT3 ) 
 	   select f.FFIRM, f.FWAEHR, f.FDATS,f.FKDNR,b.BNAME, f.FYY, f.FNRFA,f.FRJSTR,f.FKURS, a.ALPFA,
 	   a.AARTNR, 
 	   T.TBEZ as opis, a.ACHCMB, 
